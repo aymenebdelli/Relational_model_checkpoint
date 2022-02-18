@@ -1,0 +1,118 @@
+<mxfile host="65bd71144e">
+    <diagram id="u54jQunPZAaqVHYOJHoC" name="Page-1">
+        <mxGraphModel dx="699" dy="310" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Hotel" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;resizeWidth=1;resizeHeight=1;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="30" width="110" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Hotel_id&#10;Hotel_name&#10;" style="align=left;strokeColor=#3700CC;fillColor=#6a00ff;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontColor=#ffffff;" vertex="1" parent="2">
+                    <mxGeometry y="30" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Employee" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;resizeWidth=1;resizeHeight=1;" vertex="1" parent="1">
+                    <mxGeometry x="130" y="250" width="120" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Employee_id&#10;Employee_name&#10;Employee_speciality" style="align=left;strokeColor=#3700CC;fillColor=#6a00ff;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontColor=#ffffff;" vertex="1" parent="4">
+                    <mxGeometry y="30" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Type" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;resizeWidth=1;resizeHeight=1;" vertex="1" parent="1">
+                    <mxGeometry x="486" y="40" width="110" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Type_id&#10;Type_name" style="align=left;strokeColor=#3700CC;fillColor=#6a00ff;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontColor=#ffffff;" vertex="1" parent="6">
+                    <mxGeometry y="30" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Room" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;resizeWidth=1;resizeHeight=1;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="240" width="100" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Room_id&#10;Floor" style="align=left;strokeColor=#3700CC;fillColor=#6a00ff;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontColor=#ffffff;" vertex="1" parent="8">
+                    <mxGeometry y="30" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Category" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;resizeWidth=1;resizeHeight=1;" vertex="1" parent="1">
+                    <mxGeometry x="596" y="230" width="120" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Category_id&#10;Category_name&#10;Price&#10;Beds_numbers&#10;&#10;" style="align=left;strokeColor=#3700CC;fillColor=#6a00ff;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontColor=#ffffff;" vertex="1" parent="10">
+                    <mxGeometry y="30" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="leads" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="275" width="70" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="is composed" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="140" width="70" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="works" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="150" width="50" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="is of" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="260" width="46" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="is" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="60" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="16">
+                    <mxGeometry width="100" height="100" relative="1" as="geometry">
+                        <mxPoint x="200" y="230" as="sourcePoint"/>
+                        <mxPoint x="300" y="130" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="16" target="6">
+                    <mxGeometry width="100" height="100" relative="1" as="geometry">
+                        <mxPoint x="320" y="80" as="sourcePoint"/>
+                        <mxPoint x="300" y="130" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="39" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="12" target="5">
+                    <mxGeometry width="100" height="100" relative="1" as="geometry">
+                        <mxPoint x="110" y="300" as="sourcePoint"/>
+                        <mxPoint x="210" y="200" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="40" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="12" target="4">
+                    <mxGeometry width="100" height="100" relative="1" as="geometry">
+                        <mxPoint x="110" y="300" as="sourcePoint"/>
+                        <mxPoint x="210" y="200" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="41" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.602;exitY=-0.048;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4" target="14">
+                    <mxGeometry width="100" height="100" relative="1" as="geometry">
+                        <mxPoint x="110" y="300" as="sourcePoint"/>
+                        <mxPoint x="140" y="190" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="42" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="14" target="2">
+                    <mxGeometry width="100" height="100" relative="1" as="geometry">
+                        <mxPoint x="110" y="300" as="sourcePoint"/>
+                        <mxPoint x="210" y="200" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="43" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="13">
+                    <mxGeometry width="100" height="100" relative="1" as="geometry">
+                        <mxPoint x="110" y="300" as="sourcePoint"/>
+                        <mxPoint x="220" y="100" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="44" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;entryX=-0.034;entryY=0.116;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="8">
+                    <mxGeometry width="100" height="100" relative="1" as="geometry">
+                        <mxPoint x="270" y="167" as="sourcePoint"/>
+                        <mxPoint x="210" y="200" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="45" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="15">
+                    <mxGeometry width="100" height="100" relative="1" as="geometry">
+                        <mxPoint x="410" y="300" as="sourcePoint"/>
+                        <mxPoint x="510" y="200" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="46" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="10">
+                    <mxGeometry width="100" height="100" relative="1" as="geometry">
+                        <mxPoint x="510" y="280" as="sourcePoint"/>
+                        <mxPoint x="510" y="200" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="47" value="&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;font color=&quot;#000000&quot;&gt;Convert ERM to RM :&lt;/font&gt;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;Hotel (&lt;font color=&quot;#000000&quot;&gt;Hotel_id&lt;/font&gt; , Hotel_name, &lt;font color=&quot;#00ff00&quot;&gt;#Type_id&lt;/font&gt;)&lt;/li&gt;&lt;li&gt;&amp;nbsp;Type (&lt;font color=&quot;#000000&quot;&gt;Type_id&lt;/font&gt; , Type_Name)&lt;br&gt;&lt;/li&gt;&lt;li&gt;Room (&lt;font color=&quot;#000000&quot;&gt;Room_id&lt;/font&gt;&lt;font color=&quot;#000099&quot;&gt; &lt;/font&gt;, Floor , &lt;font color=&quot;#00ff00&quot;&gt;#Hotel_id&lt;/font&gt; ,&lt;font color=&quot;#00ff00&quot;&gt; #Category_id&lt;/font&gt;)&lt;br&gt;&lt;/li&gt;&lt;li&gt;Category (&lt;font color=&quot;#000000&quot;&gt;Category_id&lt;/font&gt; , Category_name,Price, Beds_Numbers)&lt;/li&gt;&lt;li&gt;&amp;nbsp;Employee (&lt;font color=&quot;#000000&quot;&gt;Employee_id&lt;/font&gt;, Employee_Name, Employee_Speciality,&lt;br&gt;&lt;font color=&quot;#00ff00&quot;&gt;#leader_id &lt;/font&gt;, &lt;font color=&quot;#00ff00&quot;&gt;#Hotel_id&lt;/font&gt;)&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=#A50040;fillColor=#d80073;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="420" width="340" height="190" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
